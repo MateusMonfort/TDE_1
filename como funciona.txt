@@ -1,0 +1,30 @@
+Ao rodar o programa, ele primeiramente pedirá para você digitar o caminho para o arquivo de texto que contém as operações a serem realizadas. Em seguida, será solicitado que você informe o caminho e o nome do arquivo onde o resultado será salvo.
+
+exemplo:
+
+Digite o caminho para o arquivo de entrada: "conjuntos/entrada1.txt"
+
+entrada1.txt:
+4
+U
+3, 5, 67, 7
+1, 2, 3, 4
+I
+1, 2, 3, 4, 5
+4, 5
+D
+1, A, C, 34
+A, C, D, 23
+C
+3, 4, 5
+5, A, B, R
+
+Digite o caminho e o nome .txt que deseja para gerar um .txt com o resultado: "conjuntos/saida1.txt"
+
+após digitar os inputs o programa irá gerar um arquivo com o nome em que o úsuario escolheu
+
+saida1.txt:
+Uniao: conjunto 1 ['3', '5', '67', '7'], conjunto 2 ['1', '2', '3', '4']. Resultado: ['1', '2', '3', '4', '5', '67', '7']
+Intersecao: conjunto 1 ['1', '2', '3', '4', '5'], conjunto 2 ['4', '5']. Resultado: ['4', '5']
+Diferenca: conjunto 1 ['1', 'A', 'C', '34'], conjunto 2 ['A', 'C', 'D', '23']. Resultado: ['1', '34']
+Produto cartesiano: conjunto 1 ['3', '4', '5'], conjunto 2 ['5', 'A', 'B', 'R']. Resultado: [('3', '5'), ('3', 'A'), ('3', 'B'), ('3', 'R'), ('4', '5'), ('4', 'A'), ('4', 'B'), ('4', 'R'), ('5', '5'), ('5', 'A'), ('5', 'B'), ('5', 'R')]
